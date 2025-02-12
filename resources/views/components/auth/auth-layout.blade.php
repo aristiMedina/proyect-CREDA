@@ -29,7 +29,7 @@
         <div class="w-100 min-vh-100 bg-colorback row align-items-center px-5 py-3">
             {{ $slot }}
         </div>
-        
+
     </section>
 
     <footer></footer>

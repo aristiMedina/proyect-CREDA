@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class LoginController extends Controller
+class Module1Controller extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -19,11 +19,8 @@ class LoginController extends Controller
      */
     public function create()
     {
-        return view('components.auth.log-in');
+        //
     }
-    // public function login(){
-    //     return view('components.interfaces.modules');
-    // }
 
     /**
      * Store a newly created resource in storage.
@@ -38,7 +35,7 @@ class LoginController extends Controller
      */
     public function show(string $id)
     {
-
+        //
     }
 
     /**
@@ -64,4 +61,12 @@ class LoginController extends Controller
     {
         //
     }
+
+    public function goTo(){
+
+        return view('components.modules.module-1.module1-pg10',[
+            'isAuth' => true
+        ]);
+    }
+
 }

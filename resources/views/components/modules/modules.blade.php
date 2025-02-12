@@ -1,6 +1,6 @@
 <x-app-layout auth='{{ $isAuth }}'>
 
-    <div class="row">
+    <div class="row w-100 py-5 d-flex flex-row flex-wrap align-items-start justify-content-center gap-4">
 
         <div class="col-8">
 
@@ -9,7 +9,9 @@
                     <x-module>
                         <img class="img-fixed"
                             src="https://plus.unsplash.com/premium_photo-1677526779537-c376aa880775?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Notas">
+                            alt="Notas"
+                            >
+
                         <x-slot name="title">
                             Modulo 1
                         </x-slot>
@@ -62,8 +64,6 @@
             </div>
 
         </div>
-
-
 
         <div class="col-3">
 

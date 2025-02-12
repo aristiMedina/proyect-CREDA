@@ -1,10 +1,9 @@
 <x-app-layout>
     <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-lg-10 text-start bg-main">
+        <div class="col-lg-8 text-start bg-main">
             <h2>Taller de creación de Recursos Educativos Digitales Accesibles - CREDA</h2>
 
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quam, quis labore adipisci voluptates
-                eaque repellat beatae est ad eum vel odit, harum et neque quasi ex minima distinctio deserunt?Et
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quam, quis labore adipisci Et
                 repellat vero iure asperiores porro fugit nemo consequuntur odio iste nisi eaque itaque debitis est
                 deleniti consectetur vel, ut ipsum commodi quam molestias facere delectus eveniet magni? Dolores, quia!
             </p>

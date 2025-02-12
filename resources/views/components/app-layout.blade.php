@@ -96,13 +96,24 @@
             text-align: start;
         }
 
+        body{
+            min-height: 100vh;
+            background: #000;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: center;
+            /* padding: 3rem */
+        }
+
         .footer {
             margin: 3rem 0;
         }
 
         .e-fixed{
-            width: 170px;
-            height: 170px;
+            width: 220px;
+            height: 220px;
             border: 1px solid transparent;
             border-radius: 50%;
             cursor: pointer;
@@ -126,20 +137,287 @@
                 margin: 7rem 0;
             }
         }
+
+        @media screen and (width < 1281px){
+            .e-fixed{
+                width: 170px;
+                height: 170px;
+            }
+        }
+
+        @media screen and (height < 670px){
+            .e-fixed{
+                width: 170px;
+                height: 170px;
+            }
+        }
+
     </style>
-    <header class="mb-5">
+
+
+
+    {{-- Estilos del módulo 1 --}}
+    <style>
+        .mod1 {
+            /* background-image: url(../../../assets/fondosModulos/fondoModulo1.png); */
+        }
+
+        .modulo1 {
+            border: 1px solid #bb3a3e !important;
+            min-height: 70vh;
+            max-height: 70vh;
+
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            font-size: small;
+
+            border-radius: 20px;
+        }
+
+        .titulosMod1 {
+            margin-bottom: 2px;
+            color: #bb3a3e;
+        }
+
+        .diseñoFilaTextoImagenMod1 {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 20px;
+        }
+
+        .tablaConceptoDiscapacidad {
+            height: 12rem;
+            width: 25rem;
+        }
+
+        .tablaDiscapacidades {
+            height: 16rem;
+            width: 28rem;
+        }
+
+        .imagenAbordajePedagogico {
+            height: 20rem;
+            width: 20rem;
+        }
+
+        .graficoDiscapacidad {
+            height: 20rem;
+            width: 15rem
+        }
+
+        .diseñoTextoSelect {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 10px;
+        }
+    </style>
+
+    {{-- Estilos del los contenedores de los módulos --}}
+    <style>
+        .contendorMod {
+            margin: 0 auto;
+            margin-top: 10px;
+
+            padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+
+            background-color: aliceblue;
+            border-radius: 20px;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .titulosCentros {
+            text-align: center;
+        }
+
+        .buttonCertificado {
+            background-color: #7bbed9;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        .buttonCertificado:hover {
+            background-color: #2690ba;
+        }
+
+        .buttonCertificado:focus {
+            background-color: #2690ba;
+            outline: none;
+        }
+
+        .buttonModSiguiente {
+            background-color: #7bbed9;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            padding: 10px;
+            margin-left: auto;
+        }
+
+        .buttonModSiguiente:hover {
+            background-color: #2690ba;
+        }
+
+        .buttonModSiguiente:focus {
+            background-color: #2690ba;
+            outline: none;
+        }
+
+        .buttonModAnterior {
+            background-color: #7bbed9;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        .buttonModAnterior:hover {
+            background-color: #2690ba;
+        }
+
+        .buttonModAnterior:focus {
+            background-color: #2690ba;
+            outline: none;
+        }
+
+        .buttonModSalir {
+            background-color: #c96363;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        .buttonModSalir:hover {
+            background-color: #a72020;
+        }
+
+        .buttonModSalir:focus {
+            background-color: #a72020;
+            outline: none;
+        }
+
+        .buttonModEnviar {
+            background-color: #d1af65;
+            border: none;
+            border-radius: 10px;
+            margin-top: 5px;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1rem;
+            padding: 10px;
+        }
+
+        .buttonModEnviar:hover {
+            background-color: #ac8021;
+        }
+
+        .buttonModEnviar:focus {
+            background-color: #ac8021;
+            outline: none;
+        }
+
+        .twoButtons {
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .threeButtons {
+            margin-bottom: 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .m1 {
+            overflow: auto;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .m1::-webkit-scrollbar {
+            -webkit-appearance: none;
+        }
+
+        .m1::-webkit-scrollbar:vertical {
+            width: 10px;
+        }
+
+        .m1::-webkit-scrollbar-button:increment,
+        .m1::-webkit-scrollbar-button {
+            display: none;
+        }
+
+        .m1::-webkit-scrollbar:horizontal {
+            height: 10px;
+        }
+
+        .m1::-webkit-scrollbar-thumb {
+            background-color: #797979;
+            border-radius: 30px;
+            border: 3px solid #f1f2f3;
+        }
+
+        .m1::-webkit-scrollbar-track {
+            border-radius: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        @media screen and (max-height: 700px) {
+            .contendorMod {
+                margin-bottom: 1rem;
+            }
+        }
+
+        @media screen and (max-height: 600px) {
+            .contendorMod {
+                margin-bottom: 3rem;
+                margin-top: 3rem;
+            }
+        }
+    </style>
+
+
+    <header>
 
         <x-navbar></x-navbar>
 
     </header>
 
-    <section>
-        <div class="w-100 pt-4 px-4">
-            {{ $slot }}
-        </div>
+    <section class="w-100 py-3 px-4 overflow-auto">
+        {{ $slot }}
     </section>
 
-    <footer class="footer mt-5">
+    <footer>
 
         <x-footer>
         </x-footer>
