@@ -313,6 +313,91 @@
         }
     </style>
 
+    {{-- * Estilos del modulo 5 --}}
+    <style>
+        /* .mod5 {
+            background-image: url(../../../assets/fondosModulos/fondoModulo5.png);
+        } */
+
+        .modulo5 {
+            border: 1px solid #2990bc !important;
+            min-height: 70vh;
+            max-height: 70vh;
+
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            font-size: small;
+
+            border-radius: 20px;
+        }
+
+        .titulosMod5 {
+            margin-bottom: 2px;
+            color: #2990bc;
+        }
+
+        .diseñoTablaTextoImagen {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .diseñoFilaImagenImagen {
+            display: grid;
+            grid-template-rows: 1fr 1fr;
+            gap: 10px;
+        }
+
+        .diseñoTablaIMG {
+            display: block;
+            margin: auto;
+        }
+
+        .logoGAIAMod5 {
+            height: 8rem;
+            width: 15rem;
+        }
+
+        .logoManosMod5 {
+            height: 8rem;
+            width: 17rem;
+        }
+
+        .logoInterface1Mod5 {
+            height: 12rem;
+            width: 25rem;
+        }
+
+        .logoIndilenguasMod5 {
+            height: 12rem;
+            width: 12rem;
+        }
+
+        .logoInterface2Mod5 {
+            height: 12rem;
+            width: 25rem;
+        }
+
+        .logoAETMod5 {
+            height: 12rem;
+            width: 12rem;
+        }
+
+        .logoInterface3Mod5 {
+            height: 12rem;
+            width: 25rem;
+        }
+
+        .logoFROACMod5 {
+            height: 11rem;
+            width: 11rem;
+        }
+
+        .logoInterface4Mod5 {
+            height: 12rem;
+            width: 25rem;
+        }
+    </style>
+
     {{-- ! Estilos del los contenedores de los módulos --}}
     <style>
         .contendorMod {

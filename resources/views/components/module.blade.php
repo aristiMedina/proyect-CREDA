@@ -1,7 +1,7 @@
 {{-- <div {{ $attributes->merge(['class'=>'d-flex flex-nowrap flex-column align-items-center justify-content-center '. $class ]) }}> --}}
 <div class="d-flex flex-nowrap flex-column align-items-center justify-content-center">
     <div class="e-fixed">
-        <a href="{{ route('module-4')}}">
+        <a href="{{ route('module-5')}}">
             {{ $slot }}
         </a>
     </div>
