@@ -11,6 +11,7 @@ use App\Http\Controllers\Module2Controller;
 use App\Http\Controllers\Module3Controller;
 use App\Http\Controllers\Module4Controller;
 use App\Http\Controllers\Module5Controller;
+use App\Http\Controllers\UserController;
 
 Route::get('/', HomeController::class)->name('home');
 
@@ -27,6 +28,8 @@ Route::get('/module2-page1', [Module2Controller::class, 'goTo'])->name('module-2
 Route::get('/module3-page1', [Module3Controller::class, 'goTo'])->name('module-3');
 Route::get('/module4-page1', [Module4Controller::class, 'goTo'])->name('module-4');
 Route::get('/module5-page1', [Module5Controller::class, 'goTo'])->name('module-5');
+
+Route::get('/info-users', [UserController::class, 'index'])->name('user.index');
 
 
 

@@ -64,7 +64,7 @@ class Module1Controller extends Controller
 
     public function goTo(){
 
-        return view('components.modules.module-1.module1-pg1',[
+        return view('components.modules.module-1.module1-pg9',[
             'isAuth' => true
         ]);
     }

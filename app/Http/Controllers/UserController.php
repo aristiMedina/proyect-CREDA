@@ -12,8 +12,11 @@ class UserController extends Controller
      */
     public function index()
     {
-        $users = User::all();
-        return response()->json($users);
+        $users = User::orderby('name', 'desc')->paginate(15);
+        return view('components/users/info-users',[
+            'isAuth' => true,
+            'users'=> $users
+        ]);
     }
 
     /**
@@ -29,7 +32,14 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        User::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'password' => $request->password,
+            'department' => $request->department,
+            'town' => $request->town,
+            'progress' => $request->progress,
+        ]);
     }
 
     /**
@@ -51,16 +61,17 @@ class UserController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(Request $request, User $id)
     {
-        //
+        $id->update($request->all());
+        return response()->json('Usuario actualizado correctamente', 201);
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy(User $id)
     {
-        //
+        $id->delete();
     }
 }

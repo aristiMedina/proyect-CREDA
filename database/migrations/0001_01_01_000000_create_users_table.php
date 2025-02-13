@@ -17,6 +17,10 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->string('department');
+            $table->string('town');
+            $table->enum('progress', ['Ninguno', 'En proceso', 'Completado'])->default('Ninguno');
+            // $table->string('progress')->default('En Progreso');
             $table->rememberToken();
             $table->timestamps();
         });

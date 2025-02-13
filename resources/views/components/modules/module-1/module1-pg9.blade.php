@@ -143,16 +143,28 @@
                     </div>
                 </div>
             </div>
-            <div class="threeButtons">
+            <div class="threeButtons gap-3">
 
                 <button class="buttonModAnterior">Anterior</button>
 
                 <button class="buttonModSiguiente">Siguiente</button>
 
                 <div>
-                    <button class="buttonModEnviar">
+                    <button class="buttonModEnviar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         Enviar
                     </button>
+
+                    <x-modal>
+                        <x-slot name="image">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" style="fill: rgb(241, 52, 52);transform: ;msFilter:;"><path d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM12 20c-4.411 0-8-3.589-8-8s3.567-8 7.953-8C16.391 4 20 7.589 20 12s-3.589 8-8 8z"></path><path d="M11 7h2v7h-2zm0 8h2v2h-2z"></path></svg>
+                        </x-slot>
+
+                        <x-slot name="description">
+                            Ha reprobado el módulo 1. Intentelo de nuevo
+                        </x-slot>
+                    </x-modal>
+
+
                 </div>
             </div>
         </div>
