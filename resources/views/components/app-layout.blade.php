@@ -163,6 +163,7 @@
     <style>
         /* .mod1 {
             background-image: url(../../../assets/fondosModulos/fondoModulo1.png);
+            background-image: url(asset('bg_modules/fondoModulo1.png'));
         } */
 
         .modulo1 {
@@ -218,6 +219,7 @@
     <style>
         /* .mod2 {
             background-image: url(../../../assets/fondosModulos/fondoModulo2.png);
+            background-image: url(asset('bg_modules/fondoModulo2.png'));
         } */
 
         .modulo2 {
@@ -267,6 +269,7 @@
     <style>
         /* .mod3 {
             background-image: url(../../../assets/fondosModulos/fondoModulo3.png);
+            background-image: url(asset('bg_modules/fondoModulo3.png'));
         } */
 
         .modulo3 {
@@ -294,6 +297,7 @@
     <style>
         /* .mod4 {
             background-image: url(../../../assets/fondosModulos/fondoModulo4.png);
+            background-image: url(asset('bg_modules/fondoModulo4.png'));
         } */
 
         .modulo4 {
@@ -317,6 +321,7 @@
     <style>
         /* .mod5 {
             background-image: url(../../../assets/fondosModulos/fondoModulo5.png);
+            background-image: url(asset('bg_modules/fondoModulo5.png'));
         } */
 
         .modulo5 {
