@@ -59,7 +59,7 @@
                     </div>
                 </div>
 
-
+                {{-- ! Segunda pregunta --}}
                 <p class="">
                     <b class="titulos">2. </b>Cual es/son las tipografias mas
                     recomendables para hacer presentaciones
