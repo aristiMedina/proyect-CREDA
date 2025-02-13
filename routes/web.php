@@ -7,6 +7,7 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\ModuleController;
 use App\Http\Controllers\Module1Controller;
+use App\Http\Controllers\Module2Controller;
 
 Route::get('/', HomeController::class)->name('home');
 
@@ -19,6 +20,7 @@ Route::post('/modules', [ModuleController::class, 'index'])->name('init');
 Route::get('/modules', [ModuleController::class, 'index'])->name('get-init');
 
 Route::get('/module1-page1', [Module1Controller::class, 'goTo'])->name('module-1');
+Route::get('/module1-page1', [Module2Controller::class, 'goTo'])->name('module-2');
 
 
 

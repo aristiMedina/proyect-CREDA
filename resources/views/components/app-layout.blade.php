@@ -42,7 +42,11 @@
         .bg-main {
             background: #fffbe4
         }
-        .bg-red{ background: var(--red)}
+
+        .bg-red {
+            background: var(--red)
+        }
+
         .noinit {
             visibility: hidden
         }
@@ -88,7 +92,7 @@
             cursor: default;
         }
 
-        li>a{
+        li>a {
             width: 100%;
             text-decoration: none;
             color: var(--colortext);
@@ -96,7 +100,7 @@
             text-align: start;
         }
 
-        body{
+        body {
             min-height: 100vh;
             background: #000;
             display: flex;
@@ -111,7 +115,7 @@
             margin: 3rem 0;
         }
 
-        .e-fixed{
+        .e-fixed {
             width: 220px;
             height: 220px;
             border: 1px solid transparent;
@@ -120,12 +124,12 @@
             transition: all ease-in-out 0.5s;
         }
 
-        .e-fixed:hover{
+        .e-fixed:hover {
             /* border: 2px solid var(--colortext); */
             transform: scale(1.1)
         }
 
-        .img-fixed{
+        .img-fixed {
             width: 100%;
             height: 100%;
             border-radius: 50%;
@@ -138,29 +142,28 @@
             }
         }
 
-        @media screen and (width < 1281px){
-            .e-fixed{
+        @media screen and (width < 1281px) {
+            .e-fixed {
                 width: 170px;
                 height: 170px;
             }
         }
 
-        @media screen and (height < 670px){
-            .e-fixed{
+        @media screen and (height < 670px) {
+            .e-fixed {
                 width: 170px;
                 height: 170px;
             }
         }
-
     </style>
 
 
 
-    {{-- Estilos del módulo 1 --}}
+    {{-- * Estilos del módulo 1 --}}
     <style>
-        .mod1 {
-            /* background-image: url(../../../assets/fondosModulos/fondoModulo1.png); */
-        }
+        /* .mod1 {
+            background-image: url(../../../assets/fondosModulos/fondoModulo1.png);
+        } */
 
         .modulo1 {
             border: 1px solid #bb3a3e !important;
@@ -211,7 +214,56 @@
         }
     </style>
 
-    {{-- Estilos del los contenedores de los módulos --}}
+    {{-- * Estilos del módulo 2 --}}
+    <style>
+        /* .mod2 {
+            background-image: url(../../../assets/fondosModulos/fondoModulo2.png);
+        } */
+
+        .modulo2 {
+            border: 1px solid #6eb79a !important;
+            min-height: 70vh;
+            max-height: 70vh;
+
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            font-size: small;
+
+            border-radius: 20px;
+        }
+
+        .titulos {
+            margin-bottom: 2px;
+            color: #6eb79a;
+        }
+
+        .diseñoTablaIMG {
+            display: block;
+            margin: auto;
+        }
+
+        .PP1 {
+            width: 25rem;
+            height: 17rem;
+        }
+
+        .PP2L{
+            width: 60%;
+            height: 17rem;
+        }
+
+        .PP2 {
+            width: 100%;
+            /* height: 17rem; */
+        }
+
+        .diseñoTablaImagen {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 10px;
+        }
+    </style>
+
+    {{-- ! Estilos del los contenedores de los módulos --}}
     <style>
         .contendorMod {
             margin: 0 auto;
