@@ -265,9 +265,9 @@
 
     {{-- * Estilos del modulo 3 --}}
     <style>
-        .mod3 {
+        /* .mod3 {
             background-image: url(../../../assets/fondosModulos/fondoModulo3.png);
-        }
+        } */
 
         .modulo3 {
             border: 1px solid #fece49 !important;
@@ -285,8 +285,31 @@
             color: #fece49;
         }
 
-        .w-70{
+        .w-70 {
             width: 70%;
+        }
+    </style>
+
+    {{-- * Estilos del modulo 4 --}}
+    <style>
+        /* .mod4 {
+            background-image: url(../../../assets/fondosModulos/fondoModulo4.png);
+        } */
+
+        .modulo4 {
+            border: 1px solid #d77631 !important;
+            min-height: 70vh;
+            max-height: 70vh;
+
+            padding: 1rem 1.5rem 1rem 1.5rem;
+            font-size: small;
+
+            border-radius: 20px;
+        }
+
+        .titulosMod4 {
+            margin-bottom: 2px;
+            color: #d77631;
         }
     </style>
 

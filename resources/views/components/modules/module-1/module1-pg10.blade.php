@@ -11,7 +11,7 @@
                         Alba Pastor, C. (2017). DUA: Un modelo teórico práctico para una
                         educación inclusiva de calidad. Diseño Universsal Para El
                         Aprendizaje: Un Modelo Teórico-Práctico Para Una Educación
-                        Inclusiva de Calidad, 3–14.
+                        Inclusiva de Calidad, 3-14.
                     </li>
                     <li>
                         Ministerio de Educación Nacional. (2017). Documento de
@@ -28,7 +28,7 @@
                         Gómez-Carballa, M. a, Valladares-Rodríguez, S. & Soto-Barreiros,
                         R. (2014). An accessible platform for people with disabilities.
                         International Journal of Human-Computer Interaction, 30(March),
-                        480–494.
+                        480-494.
                         http://doi.org/https://doi.org/10.1080/10447318.2014.888503
                     </li>
                     <li>
