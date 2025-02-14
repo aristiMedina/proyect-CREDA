@@ -11,13 +11,16 @@ class Navbar extends Component
     /**
      * Create a new component instance.
      */
+    public $isAdmin;
     public $isAuth;
     public $class;
     public $display;
-    public function __construct($auth = false)
+    public function __construct($auth = false, $admin = false)
     {
         // Lógica para ver si está autenticado
         $this->isAuth = $auth;
+        // Despues para ver si es aministrador
+        $this->isAdmin = $admin;
 
         if ($this->isAuth) {
             $this->class = 'bg-auth';

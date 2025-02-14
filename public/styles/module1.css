@@ -1,6 +1,5 @@
 .mod1 {
-    background-image: url(../../../assets/fondosModulos/fondoModulo1.png);
-    background-image: url('bg_modules/fondoModulo1.png');
+    background-image: url('../bg_modules/fondoModulo1.png');
 }
 
 .modulo1 {

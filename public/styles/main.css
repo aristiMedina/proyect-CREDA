@@ -5,7 +5,7 @@
     /* --colornoauth: #fae680; */
 
     --colorauth: linear-gradient(to right, #7db9e8 0%, #2989d8 49%, #207cca 61%, #207cca 73%, #207cca 73%, #2c70be 100%);
-    --colornoauth: linear-gradient(to right, #f8f4d0 0%, #f5d93a 73%, #f5d93a 73%);
+    --colornoauth: linear-gradient(to right, #f8f4d0 0%, #f5d939 73%, #f5d939 73%);
 
     --colorauthft: #4ea6e9;
     /* --colornoauthft: #f1dc63; */
@@ -44,7 +44,11 @@
 }
 
 .bg-colorback {
-    background: var(--colorback)
+    /* background: var(--colorback) */
+    background-image: url("../bg_main/fondo 2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Poppins", sans-serif;
 }
 
 .text-body-black,

@@ -1,4 +1,4 @@
-<x-app-layout auth='{{ $isAuth }}'>
+<x-app-layout auth='{{ $isAuth }}' admin='{{ $isAdmin }}'>
 
     <div class="contendorUsuarios">
         <table class="table table-md tabla-usuarios table-bordered border-primary">

@@ -15,6 +15,7 @@ class UserController extends Controller
         $users = User::orderby('name', 'desc')->paginate(15);
         return view('components/users/info-users',[
             'isAuth' => true,
+            'isAdmin' => true,
             'users'=> $users
         ]);
     }

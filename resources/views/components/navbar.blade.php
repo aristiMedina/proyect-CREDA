@@ -14,9 +14,22 @@
 
             <ul {{ $attributes->merge(['class'=>'navbar-nav me-auto mb-2 mb-lg-0 col-lg-7 '. $display ]) }}>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('get-init') }}">Inicio</a>
-                </li>
+                @if ($isAdmin)
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Gestionar Usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Invitar administrador</a>
+                    </li>
+
+                @else
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ route('get-init') }}">Inicio</a>
+                    </li>
+
+                @endif
 
             </ul>
 
@@ -25,15 +38,31 @@
                 <div class="row d-flex flex-row flex-nowrap align-items-center justify-content-center pe-5">
                     @if ($isAuth)
 
-                        <div class="col-lg-auto text-end order-1 border-end">
-                            <span>
-                                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                            </span>
-                        </div>
+                        @if (True)
 
-                        <div class="col-lg-9 text-start order-2">
-                            <a class="text-body-name fs-5">{{ $userName ?? 'Jose roberto'}}</a>
-                        </div>
+                            <div class="col-lg-auto text-end order-1 border-end">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                                </span>
+                            </div>
+
+                            {{-- <div class="col-lg-9 text-start order-2">
+                                <a class="text-body-name fs-5">{{ $userName ?? 'Jose roberto'}}</a>
+                            </div> --}}
+
+                        @else
+
+                            <div class="col-lg-auto text-end order-1 border-end">
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                                </span>
+                            </div>
+
+                            <div class="col-lg-9 text-start order-2">
+                                <a class="text-body-name fs-5">{{ $userName ?? 'Jose roberto'}}</a>
+                            </div>
+
+                        @endif
 
                     @else
 
