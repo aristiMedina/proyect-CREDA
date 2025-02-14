@@ -1,6 +1,8 @@
 <x-auth.auth-layout>
-    <div class="container mx-auto bg-light text-dark col-lg-5 px-5 py-4 rounded">
-        <h2 class="text-center fs-1 mb-4">Iniciar Sesión</h2>
+    <div class="container mx-auto bg-light text-dark col-lg-5 px-4 py-3 rounded">
+        <h2 class="text-center fs-1 mb-2">Registrarte</h2>
+        {{-- <h6>Ya tienes una cuenta? <a href="{{ url()->previous() }}">Inicia sesión.</a></h6> --}}
+        <h6 class="text-center mb-4">Ya tienes una cuenta? <a href="javascript:history.back()">Inicia sesión.</a></h6>
         <form class="row g-3">
 
             <div class="col-md-6">

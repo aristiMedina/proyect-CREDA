@@ -38,7 +38,7 @@
                 <div class="row d-flex flex-row flex-nowrap align-items-center justify-content-center pe-5">
                     @if ($isAuth)
 
-                        @if (True)
+                        @if ($isAdmin)
 
                             <div class="col-lg-auto text-end order-1 border-end">
                                 <span>
@@ -49,7 +49,6 @@
                             {{-- <div class="col-lg-9 text-start order-2">
                                 <a class="text-body-name fs-5">{{ $userName ?? 'Jose roberto'}}</a>
                             </div> --}}
-
                         @else
 
                             <div class="col-lg-auto text-end order-1 border-end">
