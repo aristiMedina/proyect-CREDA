@@ -1,0 +1,46 @@
+.mod2 {
+    /* background-image: url(../../../assets/fondosModulos/fondoModulo2.png); */
+    background-image: url('bg_modules/fondoModulo2.png');
+}
+
+.modulo2 {
+    border: 1px solid #6eb79a !important;
+    min-height: 70vh;
+    max-height: 70vh;
+
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    font-size: small;
+
+    border-radius: 20px;
+}
+
+.titulos {
+    margin-bottom: 2px;
+    color: #6eb79a;
+}
+
+.diseñoTablaIMG {
+    display: block;
+    margin: auto;
+}
+
+.PP1 {
+    width: 25rem;
+    height: 17rem;
+}
+
+.PP2L {
+    width: 60%;
+    height: 17rem;
+}
+
+.PP2 {
+    width: 100%;
+    /* height: 17rem; */
+}
+
+.diseñoTablaImagen {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}

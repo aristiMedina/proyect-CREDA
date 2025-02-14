@@ -1,0 +1,191 @@
+.contendorMod {
+    margin: 0 auto;
+    margin-top: 10px;
+
+    padding: 1.2rem 1.5rem 1.2rem 1.5rem;
+
+    background-color: aliceblue;
+    border-radius: 20px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulosCentros {
+    text-align: center;
+}
+
+.buttonCertificado {
+    background-color: #7bbed9;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.buttonCertificado:hover {
+    background-color: #2690ba;
+}
+
+.buttonCertificado:focus {
+    background-color: #2690ba;
+    outline: none;
+}
+
+.buttonModSiguiente {
+    background-color: #7bbed9;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+    margin-left: auto;
+}
+
+.buttonModSiguiente:hover {
+    background-color: #2690ba;
+}
+
+.buttonModSiguiente:focus {
+    background-color: #2690ba;
+    outline: none;
+}
+
+.buttonModAnterior {
+    background-color: #7bbed9;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.buttonModAnterior:hover {
+    background-color: #2690ba;
+}
+
+.buttonModAnterior:focus {
+    background-color: #2690ba;
+    outline: none;
+}
+
+.buttonModSalir {
+    background-color: #c96363;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.buttonModSalir:hover {
+    background-color: #a72020;
+}
+
+.buttonModSalir:focus {
+    background-color: #a72020;
+    outline: none;
+}
+
+.buttonModEnviar {
+    background-color: #d1af65;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.buttonModEnviar:hover {
+    background-color: #ac8021;
+}
+
+.buttonModEnviar:focus {
+    background-color: #ac8021;
+    outline: none;
+}
+
+.twoButtons {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.threeButtons {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.m1 {
+    overflow: auto;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.m1::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.m1::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+.m1::-webkit-scrollbar-button:increment,
+.m1::-webkit-scrollbar-button {
+    display: none;
+}
+
+.m1::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.m1::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 30px;
+    border: 3px solid #f1f2f3;
+}
+
+.m1::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-height: 700px) {
+    .contendorMod {
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .contendorMod {
+        margin-bottom: 3rem;
+        margin-top: 3rem;
+    }
+}

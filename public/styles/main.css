@@ -1,0 +1,133 @@
+:root {
+    --colorback: #F5EFD0;
+    --colortext: #0f0f0f;
+    /* --colorauth: #3ABEFF; */
+    /* --colornoauth: #fae680; */
+
+    --colorauth: linear-gradient(to right, #7db9e8 0%, #2989d8 49%, #207cca 61%, #207cca 73%, #207cca 73%, #2c70be 100%);
+    --colornoauth: linear-gradient(to right, #f8f4d0 0%, #f5d93a 73%, #f5d93a 73%);
+
+    --colorauthft: #4ea6e9;
+    /* --colornoauthft: #f1dc63; */
+    --colornoauthft: #f1e78a;
+
+    --red: #c52626;
+
+}
+
+.bg-main {
+    background: #fffbe4
+}
+
+.bg-red {
+    background: var(--red)
+}
+
+.noinit {
+    visibility: hidden
+}
+
+.bg-auth {
+    background: var(--colorauth)
+}
+
+.bg-auth-ft {
+    background: var(--colorauthft)
+}
+
+.bg-noauth {
+    background: var(--colornoauth)
+}
+
+.bg-noauth-ft {
+    background: var(--colornoauthft)
+}
+
+.bg-colorback {
+    background: var(--colorback)
+}
+
+.text-body-black,
+.text-body-name {
+    color: var(--colortext);
+    text-decoration: none;
+}
+
+.text-body-black:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.text-body-name {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+p,
+span {
+    cursor: default;
+}
+
+li>a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--colortext);
+    display: inline-block;
+    text-align: start;
+}
+
+body {
+    min-height: 100vh;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    /* padding: 3rem */
+}
+
+.footer {
+    margin: 3rem 0;
+}
+
+.e-fixed {
+    width: 65%;
+    height: 65%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease-in-out 0.5s;
+}
+
+.e-fixed:hover {
+    /* border: 2px solid var(--colortext); */
+    transform: scale(1.1)
+}
+
+.img-fixed {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+}
+
+/* @media screen and (width < 660px) {
+    .footer {
+        margin: 7rem 0;
+    }
+}
+
+@media screen and (width < 1281px) {
+    .e-fixed {
+        width: 170px;
+        height: 170px;
+    }
+}
+
+@media screen and (height < 670px) {
+    .e-fixed {
+        width: 170px;
+        height: 170px;
+    }
+} */
