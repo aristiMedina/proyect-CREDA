@@ -116,7 +116,7 @@
                 </x-slot>
 
                 <x-slot name="description">
-                    Ha aprobado el mósulo 2
+                    Ha aprobado el módulo 2
                 </x-slot>
             </x-modal>
         </div>
