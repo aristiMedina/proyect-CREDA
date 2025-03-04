@@ -51,8 +51,9 @@
                 </ul>
             </div>
             <div class="twoButtons">
-                <button class="buttonModAnterior">Anterior</button>
-                <button class="buttonModSiguiente">Siguiente</button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>2]) }}">Anterior</a></button>
+
+                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>4]) }}">Siguiente</a></button>
             </div>
         </div>
     </div>

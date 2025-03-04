@@ -7,7 +7,7 @@
             <div class="row-6 d-flex flex-wrap row-gap-4">
                 <div class="col-4">
                     <x-module>
-                        <a href="{{route('module-1')}}">
+                        <a href="{{route('module-1', $page='1')}}">
                             <img class="img-fixed"
                             {{-- src="https://plus.unsplash.com/premium_photo-1677526779537-c376aa880775?q=80&w=1398&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" --}}
                             src={{ asset('iconos_modules/Introduccion.png') }}
@@ -23,7 +23,7 @@
 
                 <div class="col-4">
                     <x-module>
-                        <a href="{{route('module-2')}}">
+                        <a href="{{route('module-2', $page='1')}}">
                             <img class="img-fixed"
                             {{-- src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGF0b3N8ZW58MHx8MHx8fDA%3D" --}}
                             src="{{ asset('iconos_modules/Presentaciones.png') }}"

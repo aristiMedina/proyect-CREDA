@@ -23,8 +23,8 @@ Route::get('/sign-up', [SignUpController::class, 'create'])->name('sign-up');
 Route::post('/modules', [ModuleController::class, 'index'])->name('init');
 Route::get('/modules', [ModuleController::class, 'index'])->name('get-init');
 
-Route::get('/module1-page1', [Module1Controller::class, 'goTo'])->name('module-1');
-Route::get('/module2-page1', [Module2Controller::class, 'goTo'])->name('module-2');
+Route::get('/module1-page{page}', [Module1Controller::class, 'goTo'])->name('module-1');
+Route::get('/module2-page{page}', [Module2Controller::class, 'goTo'])->name('module-2');
 Route::get('/module3-page1', [Module3Controller::class, 'goTo'])->name('module-3');
 Route::get('/module4-page1', [Module4Controller::class, 'goTo'])->name('module-4');
 Route::get('/module5-page1', [Module5Controller::class, 'goTo'])->name('module-5');

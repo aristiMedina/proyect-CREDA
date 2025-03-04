@@ -110,7 +110,7 @@
                 </ul>
             </div>
             <div>
-                <button class="buttonModSiguiente">Siguiente</button>
+                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>2]) }}">Siguiente</a></button>
             </div>
         </div>
     </div>

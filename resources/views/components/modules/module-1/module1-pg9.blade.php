@@ -145,9 +145,9 @@
             </div>
             <div class="threeButtons gap-3">
 
-                <button class="buttonModAnterior">Anterior</button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>8]) }}">Anterior</a></button>
 
-                <button class="buttonModSiguiente">Siguiente</button>
+                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>10]) }}">Siguiente</a></button>
 
                 <div>
                     <button class="buttonModEnviar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
