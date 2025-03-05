@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-// use App\Http\Controllers\AuthController;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SignUpController;
 use App\Http\Controllers\ModuleController;
@@ -12,6 +12,7 @@ use App\Http\Controllers\Module3Controller;
 use App\Http\Controllers\Module4Controller;
 use App\Http\Controllers\Module5Controller;
 use App\Http\Controllers\UserController;
+use Illuminate\Container\Attributes\Auth;
 
 Route::get('/', HomeController::class)->name('home');
 
@@ -31,6 +32,7 @@ Route::get('/module5-page{page}', [Module5Controller::class, 'goTo'])->name('mod
 
 Route::get('/info-users', [UserController::class, 'index'])->name('user.index');
 Route::get('/add-admin', [UserController::class, 'invite'])->name('user.invite');
+Route::get('/reset-password', [AuthController::class, 'forgot'])->name('user.forgot');
 
 
 

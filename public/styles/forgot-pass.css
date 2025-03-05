@@ -1,0 +1,41 @@
+.recuperar-container{
+
+    background-color: #FAFAF2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 600px;
+
+    max-width: 100%;
+    margin: 0 auto;
+
+
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.Recuperar-container {
+    padding: 2rem;
+}
+.p-rec{
+    text-align: justify;
+}
+.buttonRecu {
+    background-color: #3d9fc5;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 10px;
+}
+.buttonRecu:hover {
+    background-color: #7BBED9;
+}
+
+.buttonRecu:focus {
+    background-color: #7BBED9;
+    outline: none;
+}

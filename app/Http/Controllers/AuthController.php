@@ -16,4 +16,8 @@ class AuthController extends Controller
     {
         return view('components.auth.sign-up');
     }
+
+    public function forgot(){
+        return view('components.auth.forgot-password');
+    }
 }
