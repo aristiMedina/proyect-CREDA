@@ -48,9 +48,9 @@
                 </p>
             </div>
             <div class="twoButtons">
-                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-2 px-4" href="{{ route('module-1', ['page'=>4]) }}">Anterior</a></button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('module-1', ['page'=>4]) }}">Anterior</a></button>
 
-                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-2 px-4" href="{{ route('module-1', ['page'=>6]) }}">Siguiente</a></button>
+                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('module-1', ['page'=>6]) }}">Siguiente</a></button>
             </div>
         </div>
     </div>

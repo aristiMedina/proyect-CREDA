@@ -102,11 +102,11 @@
 
             <div class="threeButtons">
 
-                <button class="buttonModAnterior">Anterior</button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('module-2', ['page'=>9]) }}">Anterior</a></button>
 
-                <button class="buttonModSalir">Salir</button>
+                <button class="buttonModSalir"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('init') }}">Salir</a></button>
 
-                <button class="buttonModEnviar" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <button class="buttonModEnviar px-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     Enviar
                 </button>
             </div>
