@@ -110,7 +110,8 @@
                 </ul>
             </div>
             <div>
-                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>2]) }}">Siguiente</a></button>
+                {{-- <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-2 px-4 bg-secondary" href="{{ route('module-1', ['page'=>2]) }}">Siguiente</a></button> --}}
+                <a href="{{ route('module-1', ['page'=>2]) }}" class="buttonModSiguiente .d-print-inline">Siguiente</a>
             </div>
         </div>
     </div>

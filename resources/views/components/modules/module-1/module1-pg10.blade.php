@@ -126,9 +126,9 @@
             </div>
             <div class="twoButtons">
 
-                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('module-1', ['page'=>9]) }}">Anterior</a></button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-2 px-4" href="{{ route('module-1', ['page'=>9]) }}">Anterior</a></button>
 
-                <button class="buttonModSalir"><a class="link-light link-offset-2 link-underline-opacity-0" href="{{ route('init') }}">Salir</a></button>
+                <button class="buttonModSalir"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-2 px-4" href="{{ route('init') }}">Salir</a></button>
             </div>
         </div>
     </div>
