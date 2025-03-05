@@ -145,12 +145,12 @@
 
             <div class="threeButtons">
 
-                <button class="buttonModAnterior">Anterior</button>
+                <button class="buttonModAnterior"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('module-4', ['page'=>3]) }}">Anterior</a></button>
 
-                <button class="buttonModSalir">Salir</button>
+                <button class="buttonModSalir"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('get-init') }}">Salir</a></button>
 
                 <div>
-                    <button class="buttonModEnviar">
+                    <button class="buttonModEnviar px-4">
                         Enviar
                     </button>
                 </div>

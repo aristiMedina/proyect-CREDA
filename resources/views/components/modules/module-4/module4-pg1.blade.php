@@ -24,7 +24,7 @@
             </div>
             <div>
 
-                <button class="buttonModSiguiente">Siguiente</button>
+                <button class="buttonModSiguiente"><a class="link-light link-offset-2 link-underline-opacity-0 .d-print-inline-block py-3 px-4" href="{{ route('module-4', ['page'=>2]) }}">Siguiente</a></button>
 
             </div>
         </div>

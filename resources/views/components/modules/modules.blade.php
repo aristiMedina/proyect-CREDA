@@ -53,7 +53,7 @@
 
                 <div class="col-4">
                     <x-module>
-                        <a href="{{route('module-4')}}">
+                        <a href="{{route('module-4', $page ='1')}}">
                             <img class="img-fixed"
                             {{-- src="https://images.unsplash.com/photo-1494232410401-ad00d5433cfa?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" --}}
                             src="{{ asset('iconos_modules/Video.png') }}"
@@ -68,7 +68,7 @@
 
                 <div class="col-4">
                     <x-module>
-                        <a href="{{route('module-5')}}">
+                        <a href="{{route('module-5', $page ='1')}}">
                             <img class="img-fixed"
                             {{-- src="https://images.unsplash.com/photo-1583198432859-635beb4e8600?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" --}}
                             src="{{ asset('iconos_modules/HerramientasGAIA.png') }}"
