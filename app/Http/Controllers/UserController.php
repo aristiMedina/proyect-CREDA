@@ -20,6 +20,14 @@ class UserController extends Controller
         ]);
     }
 
+    public function invite()
+    {
+        return view('components/users/add-admin',[
+            'isAuth' => true,
+            'isAdmin' => true,
+        ]);
+    }
+
     /**
      * Show the form for creating a new resource.
      */

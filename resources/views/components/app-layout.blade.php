@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/module5.css">
     <link rel="stylesheet" href="styles/module_container.css">
     <link rel="stylesheet" href="styles/info-users.css">
+    <link rel="stylesheet" href="styles/add-admin.css">
     <title>CREDA</title>
 
     {{-- <script src="https://cdn.tailwindcss.com"></script> --}}

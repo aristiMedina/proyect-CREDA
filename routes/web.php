@@ -30,6 +30,7 @@ Route::get('/module4-page1', [Module4Controller::class, 'goTo'])->name('module-4
 Route::get('/module5-page1', [Module5Controller::class, 'goTo'])->name('module-5');
 
 Route::get('/info-users', [UserController::class, 'index'])->name('user.index');
+Route::get('/add-admin', [UserController::class, 'invite'])->name('user.invite');
 
 
 

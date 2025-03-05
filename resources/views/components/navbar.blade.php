@@ -17,10 +17,10 @@
                 @if ($isAdmin)
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Gestionar Usuarios</a>
+                        <a class="nav-link" href="{{ route('user.index') }}">Gestionar Usuarios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Invitar administrador</a>
+                        <a class="nav-link" href="{{ route('user.invite') }}">Invitar administrador</a>
                     </li>
 
                 @else

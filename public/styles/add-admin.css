@@ -1,0 +1,46 @@
+.invitar-container{
+    background-color: #FAFAF2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+
+
+}
+.invitar-text-container {
+    padding: 2rem;
+}
+h1 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+h6 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.buttonInv {
+    margin-top:0.5rem;
+    background-color: #7BBED9;
+    border: none;
+    border-radius: 10px;;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 0.7rem;
+}
+.buttonInv:hover {
+    background-color: #2690BA;
+}
+
+.buttonInv:focus {
+    background-color: #2690BA;
+    outline: none;
+}
