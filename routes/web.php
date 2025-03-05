@@ -27,7 +27,7 @@ Route::get('/module1-page{page}', [Module1Controller::class, 'goTo'])->name('mod
 Route::get('/module2-page{page}', [Module2Controller::class, 'goTo'])->name('module-2');
 Route::get('/module3-page{page}', [Module3Controller::class, 'goTo'])->name('module-3');
 Route::get('/module4-page{page}', [Module4Controller::class, 'goTo'])->name('module-4');
-Route::get('/module5-page1', [Module5Controller::class, 'goTo'])->name('module-5');
+Route::get('/module5-page{page}', [Module5Controller::class, 'goTo'])->name('module-5');
 
 Route::get('/info-users', [UserController::class, 'index'])->name('user.index');
 Route::get('/add-admin', [UserController::class, 'invite'])->name('user.invite');
