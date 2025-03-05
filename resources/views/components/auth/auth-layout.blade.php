@@ -22,7 +22,7 @@
 
     <section>
 
-        <div class="w-100 min-vh-100 bg-colorback row align-items-center px-5 py-3">
+        <div class="w-100 min-vh-100 bg-colorback row align-items-center px-5 py-3 mx-0 my-0">
             {{ $slot }}
         </div>
 

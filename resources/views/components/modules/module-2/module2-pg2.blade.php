@@ -9,7 +9,7 @@
                     plantillas en que se pueden poner texto, imágenes y diagramas, es
                     importante seleccionar un tema que brinde un contraste adecuado
                     entre las letras y el fondo de la diapositiva. Una herramienta web
-                    que permite evaluar el uso correcto del contraste de los colores es{" "}
+                    que permite evaluar el uso correcto del contraste de los colores es <br>
                     <a href="https://webaim.org/resources/contrastchecker/" target="_blank" rel="noreferrer">
                         https://webaim.org/resources/contrastchecker/
                     </a>
@@ -20,7 +20,7 @@
                     dibujos o figuras de fondos, ya que genera distracción en la
                     audiencia PowerPoint tiene plantillas con temas que han sido
                     mejorados para que las personas con discapacidad visual puedan
-                    emplearlos, se pueden descargar en{" "}
+                    emplearlos, se pueden descargar en <br>
                     <a href="https://templates.office.com/en-us/accessible-powerpoint-template-sampler-tm16401472"
                         target="_blank" rel="noreferrer">
                         https://templates.office.com/en-us/accessible-powerpoint-template-sampler-tm16401472

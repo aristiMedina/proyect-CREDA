@@ -37,7 +37,7 @@
 
     </header>
 
-    <section class="w-100 py-3 px-4 overflow-auto">
+    <section class="w-100 py-3 px-4 overflow-auto mx-0 my-0">
         {{ $slot }}
     </section>
 
