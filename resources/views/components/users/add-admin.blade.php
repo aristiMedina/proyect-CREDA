@@ -6,11 +6,11 @@
                 <h1>Invitar Administrador</h1>
                 <form onSubmit={handleInvitar}>
                     <h5>Correo Electrónico Destino</h5>
-                    <input type="text" class="form-control" name="email" autoComplete="true" value={email}
-                        placeholder = "Correo Electrónico Destino" onChange={handleInputChange} required />
+                    <input type="text" class="form-control mb-4" name="email" autoComplete="true"
+                        placeholder = "Correo Electrónico Destino" required />
                     <h5>Descripción</h5>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="description" autoComplete="true"
-                        value={description} placeholder = "Descripción" onChange={handleInputChange}></textarea>
+                        placeholder = "Descripción"></textarea>
                     <button class="buttonInv" type="submit">
                         Enviar
                     </button>
