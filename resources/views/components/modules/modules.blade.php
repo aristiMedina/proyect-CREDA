@@ -38,7 +38,7 @@
 
                 <div class="col-4">
                     <x-module>
-                        <a href="{{route('module-3')}}">
+                        <a href="{{route('module-3', $page='1')}}">
                             <img class="img-fixed"
                             {{-- src="https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" --}}
                             src="{{ asset('iconos_modules/Documentos.png') }}"

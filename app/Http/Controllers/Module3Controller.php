@@ -62,9 +62,9 @@ class Module3Controller extends Controller
         //
     }
 
-    public function goTo(){
+    public function goTo(string $page){
 
-        return view('components.modules.module-3.module3-pg1',[
+        return view('components.modules.module-3.module3-pg'.$page,[
             'isAuth' => true
         ]);
     }
